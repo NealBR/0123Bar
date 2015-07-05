@@ -1,0 +1,623 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+#include "stringLiterals.h"
+
+extern TypeInfo U3CModuleU3E_t415_il2cpp_TypeInfo;
+extern TypeInfo AssetBundleCreateRequest_t416_il2cpp_TypeInfo;
+extern TypeInfo AssetBundleRequest_t419_il2cpp_TypeInfo;
+extern TypeInfo AssetBundle_t418_il2cpp_TypeInfo;
+extern TypeInfo SendMessageOptions_t421_il2cpp_TypeInfo;
+extern TypeInfo Space_t422_il2cpp_TypeInfo;
+extern TypeInfo LayerMask_t103_il2cpp_TypeInfo;
+extern TypeInfo RuntimePlatform_t424_il2cpp_TypeInfo;
+extern TypeInfo LogType_t425_il2cpp_TypeInfo;
+extern TypeInfo SystemInfo_t426_il2cpp_TypeInfo;
+extern TypeInfo WaitForSeconds_t301_il2cpp_TypeInfo;
+extern TypeInfo WaitForFixedUpdate_t428_il2cpp_TypeInfo;
+extern TypeInfo WaitForEndOfFrame_t312_il2cpp_TypeInfo;
+extern TypeInfo Coroutine_t182_il2cpp_TypeInfo;
+extern TypeInfo ScriptableObject_t429_il2cpp_TypeInfo;
+extern TypeInfo GameCenterPlatform_t439_il2cpp_TypeInfo;
+extern TypeInfo GcLeaderboard_t450_il2cpp_TypeInfo;
+extern TypeInfo BoneWeight_t451_il2cpp_TypeInfo;
+extern TypeInfo Renderer_t14_il2cpp_TypeInfo;
+extern TypeInfo Screen_t452_il2cpp_TypeInfo;
+extern TypeInfo Texture_t139_il2cpp_TypeInfo;
+extern TypeInfo Texture2D_t130_il2cpp_TypeInfo;
+extern TypeInfo RenderTexture_t453_il2cpp_TypeInfo;
+extern TypeInfo ReflectionProbe_t454_il2cpp_TypeInfo;
+extern TypeInfo GUIElement_t455_il2cpp_TypeInfo;
+extern TypeInfo GUILayer_t456_il2cpp_TypeInfo;
+extern TypeInfo GradientColorKey_t457_il2cpp_TypeInfo;
+extern TypeInfo GradientAlphaKey_t458_il2cpp_TypeInfo;
+extern TypeInfo Gradient_t459_il2cpp_TypeInfo;
+extern TypeInfo ScrollViewState_t460_il2cpp_TypeInfo;
+extern TypeInfo WindowFunction_t461_il2cpp_TypeInfo;
+extern TypeInfo GUI_t464_il2cpp_TypeInfo;
+extern TypeInfo GUILayout_t467_il2cpp_TypeInfo;
+extern TypeInfo LayoutCache_t470_il2cpp_TypeInfo;
+extern TypeInfo GUILayoutUtility_t472_il2cpp_TypeInfo;
+extern TypeInfo GUILayoutEntry_t474_il2cpp_TypeInfo;
+extern TypeInfo GUILayoutGroup_t469_il2cpp_TypeInfo;
+extern TypeInfo GUIScrollGroup_t476_il2cpp_TypeInfo;
+extern TypeInfo Type_t477_il2cpp_TypeInfo;
+extern TypeInfo GUILayoutOption_t468_il2cpp_TypeInfo;
+extern TypeInfo ExitGUIException_t478_il2cpp_TypeInfo;
+extern TypeInfo GUIUtility_t479_il2cpp_TypeInfo;
+extern TypeInfo GUISettings_t480_il2cpp_TypeInfo;
+extern TypeInfo SkinChangedDelegate_t481_il2cpp_TypeInfo;
+extern TypeInfo GUISkin_t462_il2cpp_TypeInfo;
+extern TypeInfo GUIContent_t303_il2cpp_TypeInfo;
+extern TypeInfo GUIStyleState_t484_il2cpp_TypeInfo;
+extern TypeInfo RectOffset_t242_il2cpp_TypeInfo;
+extern TypeInfo FontStyle_t370_il2cpp_TypeInfo;
+extern TypeInfo GUIStyle_t466_il2cpp_TypeInfo;
+extern TypeInfo TouchScreenKeyboard_InternalConstructorHelperArguments_t485_il2cpp_TypeInfo;
+extern TypeInfo TouchScreenKeyboardType_t309_il2cpp_TypeInfo;
+extern TypeInfo TouchScreenKeyboard_t178_il2cpp_TypeInfo;
+extern TypeInfo Event_t183_il2cpp_TypeInfo;
+extern TypeInfo KeyCode_t487_il2cpp_TypeInfo;
+extern TypeInfo EventType_t488_il2cpp_TypeInfo;
+extern TypeInfo EventModifiers_t489_il2cpp_TypeInfo;
+extern TypeInfo Vector2_t12_il2cpp_TypeInfo;
+extern TypeInfo Vector3_t6_il2cpp_TypeInfo;
+extern TypeInfo Color_t109_il2cpp_TypeInfo;
+extern TypeInfo Color32_t264_il2cpp_TypeInfo;
+extern TypeInfo Quaternion_t19_il2cpp_TypeInfo;
+extern TypeInfo Rect_t141_il2cpp_TypeInfo;
+extern TypeInfo Matrix4x4_t314_il2cpp_TypeInfo;
+extern TypeInfo Bounds_t201_il2cpp_TypeInfo;
+extern TypeInfo Vector4_t160_il2cpp_TypeInfo;
+extern TypeInfo Ray_t279_il2cpp_TypeInfo;
+extern TypeInfo Plane_t310_il2cpp_TypeInfo;
+extern TypeInfo MathfInternal_t490_il2cpp_TypeInfo;
+extern TypeInfo Mathf_t270_il2cpp_TypeInfo;
+extern TypeInfo DrivenTransformProperties_t491_il2cpp_TypeInfo;
+extern TypeInfo DrivenRectTransformTracker_t195_il2cpp_TypeInfo;
+extern TypeInfo Edge_t492_il2cpp_TypeInfo;
+extern TypeInfo Axis_t493_il2cpp_TypeInfo;
+extern TypeInfo ReapplyDrivenProperties_t325_il2cpp_TypeInfo;
+extern TypeInfo RectTransform_t132_il2cpp_TypeInfo;
+extern TypeInfo ResourceRequest_t494_il2cpp_TypeInfo;
+extern TypeInfo Resources_t495_il2cpp_TypeInfo;
+extern TypeInfo SerializePrivateVariables_t496_il2cpp_TypeInfo;
+extern TypeInfo SerializeField_t338_il2cpp_TypeInfo;
+extern TypeInfo ISerializationCallbackReceiver_t342_il2cpp_TypeInfo;
+extern TypeInfo Shader_t498_il2cpp_TypeInfo;
+extern TypeInfo Material_t129_il2cpp_TypeInfo;
+extern TypeInfo SphericalHarmonicsL2_t499_il2cpp_TypeInfo;
+extern TypeInfo Sprite_t156_il2cpp_TypeInfo;
+extern TypeInfo SpriteRenderer_t278_il2cpp_TypeInfo;
+extern TypeInfo DataUtility_t500_il2cpp_TypeInfo;
+extern TypeInfo WWW_t501_il2cpp_TypeInfo;
+extern TypeInfo WWWForm_t505_il2cpp_TypeInfo;
+extern TypeInfo WWWTranscoder_t508_il2cpp_TypeInfo;
+extern TypeInfo CacheIndex_t509_il2cpp_TypeInfo;
+extern TypeInfo UnityString_t510_il2cpp_TypeInfo;
+extern TypeInfo AsyncOperation_t417_il2cpp_TypeInfo;
+extern TypeInfo LogCallback_t511_il2cpp_TypeInfo;
+extern TypeInfo Application_t512_il2cpp_TypeInfo;
+extern TypeInfo Behaviour_t328_il2cpp_TypeInfo;
+extern TypeInfo CameraCallback_t513_il2cpp_TypeInfo;
+extern TypeInfo Camera_t7_il2cpp_TypeInfo;
+extern TypeInfo Debug_t515_il2cpp_TypeInfo;
+extern TypeInfo DisplaysUpdatedDelegate_t516_il2cpp_TypeInfo;
+extern TypeInfo Display_t518_il2cpp_TypeInfo;
+extern TypeInfo MonoBehaviour_t3_il2cpp_TypeInfo;
+extern TypeInfo TouchPhase_t521_il2cpp_TypeInfo;
+extern TypeInfo IMECompositionMode_t522_il2cpp_TypeInfo;
+extern TypeInfo Touch_t22_il2cpp_TypeInfo;
+extern TypeInfo Input_t21_il2cpp_TypeInfo;
+extern TypeInfo HideFlags_t523_il2cpp_TypeInfo;
+extern TypeInfo Object_t20_il2cpp_TypeInfo;
+extern TypeInfo Component_t15_il2cpp_TypeInfo;
+extern TypeInfo GameObject_t10_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t524_il2cpp_TypeInfo;
+extern TypeInfo Transform_t8_il2cpp_TypeInfo;
+extern TypeInfo Time_t525_il2cpp_TypeInfo;
+extern TypeInfo Random_t526_il2cpp_TypeInfo;
+extern TypeInfo YieldInstruction_t427_il2cpp_TypeInfo;
+extern TypeInfo PlayerPrefs_t527_il2cpp_TypeInfo;
+extern TypeInfo Particle_t528_il2cpp_TypeInfo;
+extern TypeInfo ForceMode_t529_il2cpp_TypeInfo;
+extern TypeInfo Physics_t530_il2cpp_TypeInfo;
+extern TypeInfo Rigidbody_t16_il2cpp_TypeInfo;
+extern TypeInfo Collider_t284_il2cpp_TypeInfo;
+extern TypeInfo RaycastHit_t104_il2cpp_TypeInfo;
+extern TypeInfo Physics2D_t277_il2cpp_TypeInfo;
+extern TypeInfo RaycastHit2D_t281_il2cpp_TypeInfo;
+extern TypeInfo Rigidbody2D_t532_il2cpp_TypeInfo;
+extern TypeInfo Collider2D_t282_il2cpp_TypeInfo;
+extern TypeInfo AudioConfigurationChangeHandler_t533_il2cpp_TypeInfo;
+extern TypeInfo AudioSettings_t534_il2cpp_TypeInfo;
+extern TypeInfo PCMReaderCallback_t536_il2cpp_TypeInfo;
+extern TypeInfo PCMSetPositionCallback_t537_il2cpp_TypeInfo;
+extern TypeInfo AudioClip_t538_il2cpp_TypeInfo;
+extern TypeInfo WebCamDevice_t539_il2cpp_TypeInfo;
+extern TypeInfo AnimationEventSource_t540_il2cpp_TypeInfo;
+extern TypeInfo AnimationEvent_t542_il2cpp_TypeInfo;
+extern TypeInfo Keyframe_t545_il2cpp_TypeInfo;
+extern TypeInfo AnimationCurve_t546_il2cpp_TypeInfo;
+extern TypeInfo AnimationState_t541_il2cpp_TypeInfo;
+extern TypeInfo AnimatorClipInfo_t544_il2cpp_TypeInfo;
+extern TypeInfo AnimatorStateInfo_t543_il2cpp_TypeInfo;
+extern TypeInfo AnimatorTransitionInfo_t549_il2cpp_TypeInfo;
+extern TypeInfo Animator_t207_il2cpp_TypeInfo;
+extern TypeInfo SkeletonBone_t550_il2cpp_TypeInfo;
+extern TypeInfo HumanLimit_t551_il2cpp_TypeInfo;
+extern TypeInfo HumanBone_t552_il2cpp_TypeInfo;
+extern TypeInfo RuntimeAnimatorController_t315_il2cpp_TypeInfo;
+extern TypeInfo TextAnchor_t324_il2cpp_TypeInfo;
+extern TypeInfo HorizontalWrapMode_t371_il2cpp_TypeInfo;
+extern TypeInfo VerticalWrapMode_t372_il2cpp_TypeInfo;
+extern TypeInfo CharacterInfo_t553_il2cpp_TypeInfo;
+extern TypeInfo FontTextureRebuildCallback_t554_il2cpp_TypeInfo;
+extern TypeInfo Font_t125_il2cpp_TypeInfo;
+extern TypeInfo UICharInfo_t307_il2cpp_TypeInfo;
+extern TypeInfo UILineInfo_t305_il2cpp_TypeInfo;
+extern TypeInfo TextGenerator_t181_il2cpp_TypeInfo;
+extern TypeInfo RenderMode_t559_il2cpp_TypeInfo;
+extern TypeInfo WillRenderCanvases_t286_il2cpp_TypeInfo;
+extern TypeInfo Canvas_t134_il2cpp_TypeInfo;
+extern TypeInfo ICanvasRaycastFilter_t292_il2cpp_TypeInfo;
+extern TypeInfo CanvasGroup_t293_il2cpp_TypeInfo;
+extern TypeInfo UIVertex_t161_il2cpp_TypeInfo;
+extern TypeInfo CanvasRenderer_t133_il2cpp_TypeInfo;
+extern TypeInfo RectTransformUtility_t294_il2cpp_TypeInfo;
+extern TypeInfo Request_t560_il2cpp_TypeInfo;
+extern TypeInfo ResponseBase_t561_il2cpp_TypeInfo;
+extern TypeInfo IResponse_t785_il2cpp_TypeInfo;
+extern TypeInfo Response_t563_il2cpp_TypeInfo;
+extern TypeInfo BasicResponse_t564_il2cpp_TypeInfo;
+extern TypeInfo CreateMatchRequest_t566_il2cpp_TypeInfo;
+extern TypeInfo CreateMatchResponse_t567_il2cpp_TypeInfo;
+extern TypeInfo JoinMatchRequest_t568_il2cpp_TypeInfo;
+extern TypeInfo JoinMatchResponse_t569_il2cpp_TypeInfo;
+extern TypeInfo DestroyMatchRequest_t570_il2cpp_TypeInfo;
+extern TypeInfo DropConnectionRequest_t571_il2cpp_TypeInfo;
+extern TypeInfo ListMatchRequest_t572_il2cpp_TypeInfo;
+extern TypeInfo MatchDirectConnectInfo_t573_il2cpp_TypeInfo;
+extern TypeInfo MatchDesc_t575_il2cpp_TypeInfo;
+extern TypeInfo ListMatchResponse_t577_il2cpp_TypeInfo;
+extern TypeInfo AppID_t578_il2cpp_TypeInfo;
+extern TypeInfo SourceID_t579_il2cpp_TypeInfo;
+extern TypeInfo NetworkID_t580_il2cpp_TypeInfo;
+extern TypeInfo NodeID_t581_il2cpp_TypeInfo;
+extern TypeInfo NetworkAccessToken_t582_il2cpp_TypeInfo;
+extern TypeInfo Utility_t585_il2cpp_TypeInfo;
+extern TypeInfo ResponseDelegate_1_t787_il2cpp_TypeInfo;
+extern TypeInfo U3CProcessMatchResponseU3Ec__Iterator0_1_t789_il2cpp_TypeInfo;
+extern TypeInfo NetworkMatch_t587_il2cpp_TypeInfo;
+extern TypeInfo JsonArray_t592_il2cpp_TypeInfo;
+extern TypeInfo JsonObject_t594_il2cpp_TypeInfo;
+extern TypeInfo SimpleJson_t602_il2cpp_TypeInfo;
+extern TypeInfo IJsonSerializerStrategy_t600_il2cpp_TypeInfo;
+extern TypeInfo PocoJsonSerializerStrategy_t601_il2cpp_TypeInfo;
+extern TypeInfo ThreadSafeDictionary_2_t804_il2cpp_TypeInfo;
+extern TypeInfo GetDelegate_t610_il2cpp_TypeInfo;
+extern TypeInfo SetDelegate_t611_il2cpp_TypeInfo;
+extern TypeInfo ConstructorDelegate_t607_il2cpp_TypeInfo;
+extern TypeInfo ThreadSafeDictionaryValueFactory_2_t818_il2cpp_TypeInfo;
+extern TypeInfo U3CGetConstructorByReflectionU3Ec__AnonStorey1_t613_il2cpp_TypeInfo;
+extern TypeInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t614_il2cpp_TypeInfo;
+extern TypeInfo U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t615_il2cpp_TypeInfo;
+extern TypeInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t616_il2cpp_TypeInfo;
+extern TypeInfo U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t617_il2cpp_TypeInfo;
+extern TypeInfo ReflectionUtils_t618_il2cpp_TypeInfo;
+extern TypeInfo WrapperlessIcall_t622_il2cpp_TypeInfo;
+extern TypeInfo IL2CPPStructAlignmentAttribute_t623_il2cpp_TypeInfo;
+extern TypeInfo AttributeHelperEngine_t627_il2cpp_TypeInfo;
+extern TypeInfo DisallowMultipleComponent_t373_il2cpp_TypeInfo;
+extern TypeInfo RequireComponent_t358_il2cpp_TypeInfo;
+extern TypeInfo AddComponentMenu_t337_il2cpp_TypeInfo;
+extern TypeInfo ExecuteInEditMode_t374_il2cpp_TypeInfo;
+extern TypeInfo HideInInspector_t24_il2cpp_TypeInfo;
+extern TypeInfo CastHelper_1_t822_il2cpp_TypeInfo;
+extern TypeInfo SetupCoroutine_t628_il2cpp_TypeInfo;
+extern TypeInfo WritableAttribute_t629_il2cpp_TypeInfo;
+extern TypeInfo AssemblyIsEditorAssembly_t630_il2cpp_TypeInfo;
+extern TypeInfo GcUserProfileData_t448_il2cpp_TypeInfo;
+extern TypeInfo GcAchievementDescriptionData_t447_il2cpp_TypeInfo;
+extern TypeInfo GcAchievementData_t442_il2cpp_TypeInfo;
+extern TypeInfo GcScoreData_t444_il2cpp_TypeInfo;
+extern TypeInfo Resolution_t635_il2cpp_TypeInfo;
+extern TypeInfo RenderBuffer_t520_il2cpp_TypeInfo;
+extern TypeInfo CameraClearFlags_t636_il2cpp_TypeInfo;
+extern TypeInfo TextureFormat_t637_il2cpp_TypeInfo;
+extern TypeInfo ReflectionProbeBlendInfo_t638_il2cpp_TypeInfo;
+extern TypeInfo LocalUser_t437_il2cpp_TypeInfo;
+extern TypeInfo UserProfile_t631_il2cpp_TypeInfo;
+extern TypeInfo Achievement_t633_il2cpp_TypeInfo;
+extern TypeInfo AchievementDescription_t632_il2cpp_TypeInfo;
+extern TypeInfo Score_t634_il2cpp_TypeInfo;
+extern TypeInfo Leaderboard_t449_il2cpp_TypeInfo;
+extern TypeInfo HitInfo_t643_il2cpp_TypeInfo;
+extern TypeInfo SendMouseEvents_t645_il2cpp_TypeInfo;
+extern TypeInfo ISocialPlatform_t750_il2cpp_TypeInfo;
+extern TypeInfo ILocalUser_t440_il2cpp_TypeInfo;
+extern TypeInfo UserState_t646_il2cpp_TypeInfo;
+extern TypeInfo IUserProfile_t684_il2cpp_TypeInfo;
+extern TypeInfo IAchievement_t446_il2cpp_TypeInfo;
+extern TypeInfo IAchievementDescription_t679_il2cpp_TypeInfo;
+extern TypeInfo IScore_t640_il2cpp_TypeInfo;
+extern TypeInfo UserScope_t647_il2cpp_TypeInfo;
+extern TypeInfo TimeScope_t648_il2cpp_TypeInfo;
+extern TypeInfo Range_t642_il2cpp_TypeInfo;
+extern TypeInfo ILeaderboard_t445_il2cpp_TypeInfo;
+extern TypeInfo PropertyAttribute_t649_il2cpp_TypeInfo;
+extern TypeInfo TooltipAttribute_t380_il2cpp_TypeInfo;
+extern TypeInfo SpaceAttribute_t378_il2cpp_TypeInfo;
+extern TypeInfo RangeAttribute_t369_il2cpp_TypeInfo;
+extern TypeInfo TextAreaAttribute_t384_il2cpp_TypeInfo;
+extern TypeInfo SelectionBaseAttribute_t379_il2cpp_TypeInfo;
+extern TypeInfo SliderState_t650_il2cpp_TypeInfo;
+extern TypeInfo StackTraceUtility_t651_il2cpp_TypeInfo;
+extern TypeInfo UnityException_t300_il2cpp_TypeInfo;
+extern TypeInfo SharedBetweenAnimatorsAttribute_t655_il2cpp_TypeInfo;
+extern TypeInfo StateMachineBehaviour_t656_il2cpp_TypeInfo;
+extern TypeInfo DblClickSnapping_t657_il2cpp_TypeInfo;
+extern TypeInfo TextEditOp_t658_il2cpp_TypeInfo;
+extern TypeInfo TextEditor_t302_il2cpp_TypeInfo;
+extern TypeInfo TextGenerationSettings_t216_il2cpp_TypeInfo;
+extern TypeInfo TrackedReference_t548_il2cpp_TypeInfo;
+extern TypeInfo PersistentListenerMode_t660_il2cpp_TypeInfo;
+extern TypeInfo ArgumentCache_t661_il2cpp_TypeInfo;
+extern TypeInfo BaseInvokableCall_t662_il2cpp_TypeInfo;
+extern TypeInfo InvokableCall_t663_il2cpp_TypeInfo;
+extern TypeInfo InvokableCall_1_t826_il2cpp_TypeInfo;
+extern TypeInfo InvokableCall_2_t829_il2cpp_TypeInfo;
+extern TypeInfo InvokableCall_3_t833_il2cpp_TypeInfo;
+extern TypeInfo InvokableCall_4_t838_il2cpp_TypeInfo;
+extern TypeInfo CachedInvokableCall_1_t745_il2cpp_TypeInfo;
+extern TypeInfo UnityEventCallState_t664_il2cpp_TypeInfo;
+extern TypeInfo PersistentCall_t665_il2cpp_TypeInfo;
+extern TypeInfo PersistentCallGroup_t668_il2cpp_TypeInfo;
+extern TypeInfo InvokableCallList_t669_il2cpp_TypeInfo;
+extern TypeInfo UnityEventBase_t666_il2cpp_TypeInfo;
+extern TypeInfo UnityEvent_t113_il2cpp_TypeInfo;
+extern TypeInfo UnityEvent_1_t846_il2cpp_TypeInfo;
+extern TypeInfo UnityEvent_2_t850_il2cpp_TypeInfo;
+extern TypeInfo UnityEvent_3_t854_il2cpp_TypeInfo;
+extern TypeInfo UnityEvent_4_t859_il2cpp_TypeInfo;
+extern TypeInfo UserAuthorizationDialog_t671_il2cpp_TypeInfo;
+extern TypeInfo DefaultValueAttribute_t672_il2cpp_TypeInfo;
+extern TypeInfo ExcludeFromDocsAttribute_t673_il2cpp_TypeInfo;
+extern TypeInfo FormerlySerializedAsAttribute_t339_il2cpp_TypeInfo;
+extern TypeInfo TypeInferenceRules_t674_il2cpp_TypeInfo;
+extern TypeInfo TypeInferenceRuleAttribute_t675_il2cpp_TypeInfo;
+extern TypeInfo GenericStack_t463_il2cpp_TypeInfo;
+extern TypeInfo UnityAction_t135_il2cpp_TypeInfo;
+extern TypeInfo UnityAction_1_t865_il2cpp_TypeInfo;
+extern TypeInfo UnityAction_2_t867_il2cpp_TypeInfo;
+extern TypeInfo UnityAction_3_t870_il2cpp_TypeInfo;
+extern TypeInfo UnityAction_4_t874_il2cpp_TypeInfo;
+#include "utils/RegisterRuntimeInitializeAndCleanup.h"
+#include <map>
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_UnityEngine_Assembly_Types[290] = 
+{
+	&U3CModuleU3E_t415_il2cpp_TypeInfo,
+	&AssetBundleCreateRequest_t416_il2cpp_TypeInfo,
+	&AssetBundleRequest_t419_il2cpp_TypeInfo,
+	&AssetBundle_t418_il2cpp_TypeInfo,
+	&SendMessageOptions_t421_il2cpp_TypeInfo,
+	&Space_t422_il2cpp_TypeInfo,
+	&LayerMask_t103_il2cpp_TypeInfo,
+	&RuntimePlatform_t424_il2cpp_TypeInfo,
+	&LogType_t425_il2cpp_TypeInfo,
+	&SystemInfo_t426_il2cpp_TypeInfo,
+	&WaitForSeconds_t301_il2cpp_TypeInfo,
+	&WaitForFixedUpdate_t428_il2cpp_TypeInfo,
+	&WaitForEndOfFrame_t312_il2cpp_TypeInfo,
+	&Coroutine_t182_il2cpp_TypeInfo,
+	&ScriptableObject_t429_il2cpp_TypeInfo,
+	&GameCenterPlatform_t439_il2cpp_TypeInfo,
+	&GcLeaderboard_t450_il2cpp_TypeInfo,
+	&BoneWeight_t451_il2cpp_TypeInfo,
+	&Renderer_t14_il2cpp_TypeInfo,
+	&Screen_t452_il2cpp_TypeInfo,
+	&Texture_t139_il2cpp_TypeInfo,
+	&Texture2D_t130_il2cpp_TypeInfo,
+	&RenderTexture_t453_il2cpp_TypeInfo,
+	&ReflectionProbe_t454_il2cpp_TypeInfo,
+	&GUIElement_t455_il2cpp_TypeInfo,
+	&GUILayer_t456_il2cpp_TypeInfo,
+	&GradientColorKey_t457_il2cpp_TypeInfo,
+	&GradientAlphaKey_t458_il2cpp_TypeInfo,
+	&Gradient_t459_il2cpp_TypeInfo,
+	&ScrollViewState_t460_il2cpp_TypeInfo,
+	&WindowFunction_t461_il2cpp_TypeInfo,
+	&GUI_t464_il2cpp_TypeInfo,
+	&GUILayout_t467_il2cpp_TypeInfo,
+	&LayoutCache_t470_il2cpp_TypeInfo,
+	&GUILayoutUtility_t472_il2cpp_TypeInfo,
+	&GUILayoutEntry_t474_il2cpp_TypeInfo,
+	&GUILayoutGroup_t469_il2cpp_TypeInfo,
+	&GUIScrollGroup_t476_il2cpp_TypeInfo,
+	&Type_t477_il2cpp_TypeInfo,
+	&GUILayoutOption_t468_il2cpp_TypeInfo,
+	&ExitGUIException_t478_il2cpp_TypeInfo,
+	&GUIUtility_t479_il2cpp_TypeInfo,
+	&GUISettings_t480_il2cpp_TypeInfo,
+	&SkinChangedDelegate_t481_il2cpp_TypeInfo,
+	&GUISkin_t462_il2cpp_TypeInfo,
+	&GUIContent_t303_il2cpp_TypeInfo,
+	&GUIStyleState_t484_il2cpp_TypeInfo,
+	&RectOffset_t242_il2cpp_TypeInfo,
+	&FontStyle_t370_il2cpp_TypeInfo,
+	&GUIStyle_t466_il2cpp_TypeInfo,
+	&TouchScreenKeyboard_InternalConstructorHelperArguments_t485_il2cpp_TypeInfo,
+	&TouchScreenKeyboardType_t309_il2cpp_TypeInfo,
+	&TouchScreenKeyboard_t178_il2cpp_TypeInfo,
+	&Event_t183_il2cpp_TypeInfo,
+	&KeyCode_t487_il2cpp_TypeInfo,
+	&EventType_t488_il2cpp_TypeInfo,
+	&EventModifiers_t489_il2cpp_TypeInfo,
+	&Vector2_t12_il2cpp_TypeInfo,
+	&Vector3_t6_il2cpp_TypeInfo,
+	&Color_t109_il2cpp_TypeInfo,
+	&Color32_t264_il2cpp_TypeInfo,
+	&Quaternion_t19_il2cpp_TypeInfo,
+	&Rect_t141_il2cpp_TypeInfo,
+	&Matrix4x4_t314_il2cpp_TypeInfo,
+	&Bounds_t201_il2cpp_TypeInfo,
+	&Vector4_t160_il2cpp_TypeInfo,
+	&Ray_t279_il2cpp_TypeInfo,
+	&Plane_t310_il2cpp_TypeInfo,
+	&MathfInternal_t490_il2cpp_TypeInfo,
+	&Mathf_t270_il2cpp_TypeInfo,
+	&DrivenTransformProperties_t491_il2cpp_TypeInfo,
+	&DrivenRectTransformTracker_t195_il2cpp_TypeInfo,
+	&Edge_t492_il2cpp_TypeInfo,
+	&Axis_t493_il2cpp_TypeInfo,
+	&ReapplyDrivenProperties_t325_il2cpp_TypeInfo,
+	&RectTransform_t132_il2cpp_TypeInfo,
+	&ResourceRequest_t494_il2cpp_TypeInfo,
+	&Resources_t495_il2cpp_TypeInfo,
+	&SerializePrivateVariables_t496_il2cpp_TypeInfo,
+	&SerializeField_t338_il2cpp_TypeInfo,
+	&ISerializationCallbackReceiver_t342_il2cpp_TypeInfo,
+	&Shader_t498_il2cpp_TypeInfo,
+	&Material_t129_il2cpp_TypeInfo,
+	&SphericalHarmonicsL2_t499_il2cpp_TypeInfo,
+	&Sprite_t156_il2cpp_TypeInfo,
+	&SpriteRenderer_t278_il2cpp_TypeInfo,
+	&DataUtility_t500_il2cpp_TypeInfo,
+	&WWW_t501_il2cpp_TypeInfo,
+	&WWWForm_t505_il2cpp_TypeInfo,
+	&WWWTranscoder_t508_il2cpp_TypeInfo,
+	&CacheIndex_t509_il2cpp_TypeInfo,
+	&UnityString_t510_il2cpp_TypeInfo,
+	&AsyncOperation_t417_il2cpp_TypeInfo,
+	&LogCallback_t511_il2cpp_TypeInfo,
+	&Application_t512_il2cpp_TypeInfo,
+	&Behaviour_t328_il2cpp_TypeInfo,
+	&CameraCallback_t513_il2cpp_TypeInfo,
+	&Camera_t7_il2cpp_TypeInfo,
+	&Debug_t515_il2cpp_TypeInfo,
+	&DisplaysUpdatedDelegate_t516_il2cpp_TypeInfo,
+	&Display_t518_il2cpp_TypeInfo,
+	&MonoBehaviour_t3_il2cpp_TypeInfo,
+	&TouchPhase_t521_il2cpp_TypeInfo,
+	&IMECompositionMode_t522_il2cpp_TypeInfo,
+	&Touch_t22_il2cpp_TypeInfo,
+	&Input_t21_il2cpp_TypeInfo,
+	&HideFlags_t523_il2cpp_TypeInfo,
+	&Object_t20_il2cpp_TypeInfo,
+	&Component_t15_il2cpp_TypeInfo,
+	&GameObject_t10_il2cpp_TypeInfo,
+	&Enumerator_t524_il2cpp_TypeInfo,
+	&Transform_t8_il2cpp_TypeInfo,
+	&Time_t525_il2cpp_TypeInfo,
+	&Random_t526_il2cpp_TypeInfo,
+	&YieldInstruction_t427_il2cpp_TypeInfo,
+	&PlayerPrefs_t527_il2cpp_TypeInfo,
+	&Particle_t528_il2cpp_TypeInfo,
+	&ForceMode_t529_il2cpp_TypeInfo,
+	&Physics_t530_il2cpp_TypeInfo,
+	&Rigidbody_t16_il2cpp_TypeInfo,
+	&Collider_t284_il2cpp_TypeInfo,
+	&RaycastHit_t104_il2cpp_TypeInfo,
+	&Physics2D_t277_il2cpp_TypeInfo,
+	&RaycastHit2D_t281_il2cpp_TypeInfo,
+	&Rigidbody2D_t532_il2cpp_TypeInfo,
+	&Collider2D_t282_il2cpp_TypeInfo,
+	&AudioConfigurationChangeHandler_t533_il2cpp_TypeInfo,
+	&AudioSettings_t534_il2cpp_TypeInfo,
+	&PCMReaderCallback_t536_il2cpp_TypeInfo,
+	&PCMSetPositionCallback_t537_il2cpp_TypeInfo,
+	&AudioClip_t538_il2cpp_TypeInfo,
+	&WebCamDevice_t539_il2cpp_TypeInfo,
+	&AnimationEventSource_t540_il2cpp_TypeInfo,
+	&AnimationEvent_t542_il2cpp_TypeInfo,
+	&Keyframe_t545_il2cpp_TypeInfo,
+	&AnimationCurve_t546_il2cpp_TypeInfo,
+	&AnimationState_t541_il2cpp_TypeInfo,
+	&AnimatorClipInfo_t544_il2cpp_TypeInfo,
+	&AnimatorStateInfo_t543_il2cpp_TypeInfo,
+	&AnimatorTransitionInfo_t549_il2cpp_TypeInfo,
+	&Animator_t207_il2cpp_TypeInfo,
+	&SkeletonBone_t550_il2cpp_TypeInfo,
+	&HumanLimit_t551_il2cpp_TypeInfo,
+	&HumanBone_t552_il2cpp_TypeInfo,
+	&RuntimeAnimatorController_t315_il2cpp_TypeInfo,
+	&TextAnchor_t324_il2cpp_TypeInfo,
+	&HorizontalWrapMode_t371_il2cpp_TypeInfo,
+	&VerticalWrapMode_t372_il2cpp_TypeInfo,
+	&CharacterInfo_t553_il2cpp_TypeInfo,
+	&FontTextureRebuildCallback_t554_il2cpp_TypeInfo,
+	&Font_t125_il2cpp_TypeInfo,
+	&UICharInfo_t307_il2cpp_TypeInfo,
+	&UILineInfo_t305_il2cpp_TypeInfo,
+	&TextGenerator_t181_il2cpp_TypeInfo,
+	&RenderMode_t559_il2cpp_TypeInfo,
+	&WillRenderCanvases_t286_il2cpp_TypeInfo,
+	&Canvas_t134_il2cpp_TypeInfo,
+	&ICanvasRaycastFilter_t292_il2cpp_TypeInfo,
+	&CanvasGroup_t293_il2cpp_TypeInfo,
+	&UIVertex_t161_il2cpp_TypeInfo,
+	&CanvasRenderer_t133_il2cpp_TypeInfo,
+	&RectTransformUtility_t294_il2cpp_TypeInfo,
+	&Request_t560_il2cpp_TypeInfo,
+	&ResponseBase_t561_il2cpp_TypeInfo,
+	&IResponse_t785_il2cpp_TypeInfo,
+	&Response_t563_il2cpp_TypeInfo,
+	&BasicResponse_t564_il2cpp_TypeInfo,
+	&CreateMatchRequest_t566_il2cpp_TypeInfo,
+	&CreateMatchResponse_t567_il2cpp_TypeInfo,
+	&JoinMatchRequest_t568_il2cpp_TypeInfo,
+	&JoinMatchResponse_t569_il2cpp_TypeInfo,
+	&DestroyMatchRequest_t570_il2cpp_TypeInfo,
+	&DropConnectionRequest_t571_il2cpp_TypeInfo,
+	&ListMatchRequest_t572_il2cpp_TypeInfo,
+	&MatchDirectConnectInfo_t573_il2cpp_TypeInfo,
+	&MatchDesc_t575_il2cpp_TypeInfo,
+	&ListMatchResponse_t577_il2cpp_TypeInfo,
+	&AppID_t578_il2cpp_TypeInfo,
+	&SourceID_t579_il2cpp_TypeInfo,
+	&NetworkID_t580_il2cpp_TypeInfo,
+	&NodeID_t581_il2cpp_TypeInfo,
+	&NetworkAccessToken_t582_il2cpp_TypeInfo,
+	&Utility_t585_il2cpp_TypeInfo,
+	&ResponseDelegate_1_t787_il2cpp_TypeInfo,
+	&U3CProcessMatchResponseU3Ec__Iterator0_1_t789_il2cpp_TypeInfo,
+	&NetworkMatch_t587_il2cpp_TypeInfo,
+	&JsonArray_t592_il2cpp_TypeInfo,
+	&JsonObject_t594_il2cpp_TypeInfo,
+	&SimpleJson_t602_il2cpp_TypeInfo,
+	&IJsonSerializerStrategy_t600_il2cpp_TypeInfo,
+	&PocoJsonSerializerStrategy_t601_il2cpp_TypeInfo,
+	&ThreadSafeDictionary_2_t804_il2cpp_TypeInfo,
+	&GetDelegate_t610_il2cpp_TypeInfo,
+	&SetDelegate_t611_il2cpp_TypeInfo,
+	&ConstructorDelegate_t607_il2cpp_TypeInfo,
+	&ThreadSafeDictionaryValueFactory_2_t818_il2cpp_TypeInfo,
+	&U3CGetConstructorByReflectionU3Ec__AnonStorey1_t613_il2cpp_TypeInfo,
+	&U3CGetGetMethodByReflectionU3Ec__AnonStorey2_t614_il2cpp_TypeInfo,
+	&U3CGetGetMethodByReflectionU3Ec__AnonStorey3_t615_il2cpp_TypeInfo,
+	&U3CGetSetMethodByReflectionU3Ec__AnonStorey4_t616_il2cpp_TypeInfo,
+	&U3CGetSetMethodByReflectionU3Ec__AnonStorey5_t617_il2cpp_TypeInfo,
+	&ReflectionUtils_t618_il2cpp_TypeInfo,
+	&WrapperlessIcall_t622_il2cpp_TypeInfo,
+	&IL2CPPStructAlignmentAttribute_t623_il2cpp_TypeInfo,
+	&AttributeHelperEngine_t627_il2cpp_TypeInfo,
+	&DisallowMultipleComponent_t373_il2cpp_TypeInfo,
+	&RequireComponent_t358_il2cpp_TypeInfo,
+	&AddComponentMenu_t337_il2cpp_TypeInfo,
+	&ExecuteInEditMode_t374_il2cpp_TypeInfo,
+	&HideInInspector_t24_il2cpp_TypeInfo,
+	&CastHelper_1_t822_il2cpp_TypeInfo,
+	&SetupCoroutine_t628_il2cpp_TypeInfo,
+	&WritableAttribute_t629_il2cpp_TypeInfo,
+	&AssemblyIsEditorAssembly_t630_il2cpp_TypeInfo,
+	&GcUserProfileData_t448_il2cpp_TypeInfo,
+	&GcAchievementDescriptionData_t447_il2cpp_TypeInfo,
+	&GcAchievementData_t442_il2cpp_TypeInfo,
+	&GcScoreData_t444_il2cpp_TypeInfo,
+	&Resolution_t635_il2cpp_TypeInfo,
+	&RenderBuffer_t520_il2cpp_TypeInfo,
+	&CameraClearFlags_t636_il2cpp_TypeInfo,
+	&TextureFormat_t637_il2cpp_TypeInfo,
+	&ReflectionProbeBlendInfo_t638_il2cpp_TypeInfo,
+	&LocalUser_t437_il2cpp_TypeInfo,
+	&UserProfile_t631_il2cpp_TypeInfo,
+	&Achievement_t633_il2cpp_TypeInfo,
+	&AchievementDescription_t632_il2cpp_TypeInfo,
+	&Score_t634_il2cpp_TypeInfo,
+	&Leaderboard_t449_il2cpp_TypeInfo,
+	&HitInfo_t643_il2cpp_TypeInfo,
+	&SendMouseEvents_t645_il2cpp_TypeInfo,
+	&ISocialPlatform_t750_il2cpp_TypeInfo,
+	&ILocalUser_t440_il2cpp_TypeInfo,
+	&UserState_t646_il2cpp_TypeInfo,
+	&IUserProfile_t684_il2cpp_TypeInfo,
+	&IAchievement_t446_il2cpp_TypeInfo,
+	&IAchievementDescription_t679_il2cpp_TypeInfo,
+	&IScore_t640_il2cpp_TypeInfo,
+	&UserScope_t647_il2cpp_TypeInfo,
+	&TimeScope_t648_il2cpp_TypeInfo,
+	&Range_t642_il2cpp_TypeInfo,
+	&ILeaderboard_t445_il2cpp_TypeInfo,
+	&PropertyAttribute_t649_il2cpp_TypeInfo,
+	&TooltipAttribute_t380_il2cpp_TypeInfo,
+	&SpaceAttribute_t378_il2cpp_TypeInfo,
+	&RangeAttribute_t369_il2cpp_TypeInfo,
+	&TextAreaAttribute_t384_il2cpp_TypeInfo,
+	&SelectionBaseAttribute_t379_il2cpp_TypeInfo,
+	&SliderState_t650_il2cpp_TypeInfo,
+	&StackTraceUtility_t651_il2cpp_TypeInfo,
+	&UnityException_t300_il2cpp_TypeInfo,
+	&SharedBetweenAnimatorsAttribute_t655_il2cpp_TypeInfo,
+	&StateMachineBehaviour_t656_il2cpp_TypeInfo,
+	&DblClickSnapping_t657_il2cpp_TypeInfo,
+	&TextEditOp_t658_il2cpp_TypeInfo,
+	&TextEditor_t302_il2cpp_TypeInfo,
+	&TextGenerationSettings_t216_il2cpp_TypeInfo,
+	&TrackedReference_t548_il2cpp_TypeInfo,
+	&PersistentListenerMode_t660_il2cpp_TypeInfo,
+	&ArgumentCache_t661_il2cpp_TypeInfo,
+	&BaseInvokableCall_t662_il2cpp_TypeInfo,
+	&InvokableCall_t663_il2cpp_TypeInfo,
+	&InvokableCall_1_t826_il2cpp_TypeInfo,
+	&InvokableCall_2_t829_il2cpp_TypeInfo,
+	&InvokableCall_3_t833_il2cpp_TypeInfo,
+	&InvokableCall_4_t838_il2cpp_TypeInfo,
+	&CachedInvokableCall_1_t745_il2cpp_TypeInfo,
+	&UnityEventCallState_t664_il2cpp_TypeInfo,
+	&PersistentCall_t665_il2cpp_TypeInfo,
+	&PersistentCallGroup_t668_il2cpp_TypeInfo,
+	&InvokableCallList_t669_il2cpp_TypeInfo,
+	&UnityEventBase_t666_il2cpp_TypeInfo,
+	&UnityEvent_t113_il2cpp_TypeInfo,
+	&UnityEvent_1_t846_il2cpp_TypeInfo,
+	&UnityEvent_2_t850_il2cpp_TypeInfo,
+	&UnityEvent_3_t854_il2cpp_TypeInfo,
+	&UnityEvent_4_t859_il2cpp_TypeInfo,
+	&UserAuthorizationDialog_t671_il2cpp_TypeInfo,
+	&DefaultValueAttribute_t672_il2cpp_TypeInfo,
+	&ExcludeFromDocsAttribute_t673_il2cpp_TypeInfo,
+	&FormerlySerializedAsAttribute_t339_il2cpp_TypeInfo,
+	&TypeInferenceRules_t674_il2cpp_TypeInfo,
+	&TypeInferenceRuleAttribute_t675_il2cpp_TypeInfo,
+	&GenericStack_t463_il2cpp_TypeInfo,
+	&UnityAction_t135_il2cpp_TypeInfo,
+	&UnityAction_1_t865_il2cpp_TypeInfo,
+	&UnityAction_2_t867_il2cpp_TypeInfo,
+	&UnityAction_3_t870_il2cpp_TypeInfo,
+	&UnityAction_4_t874_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_UnityEngine_dll_Image;
+extern CustomAttributesCache g_UnityEngine_Assembly__CustomAttributeCache;
+Il2CppAssembly g_UnityEngine_Assembly = 
+{
+	{ "UnityEngine", 0, 0, 0, { 0 }, 32772, 0, 0, 0, 0, 0, 0 },
+	&g_UnityEngine_dll_Image,
+	&g_UnityEngine_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_UnityEngine_dll_Image = 
+{
+	 "UnityEngine.dll" ,
+	&g_UnityEngine_Assembly,
+	g_UnityEngine_Assembly_Types,
+	289,
+	NULL,
+};
+static void s_UnityEngineRegistration()
+{
+	RegisterAssembly (&g_UnityEngine_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_UnityEngineRegistrationVariable(&s_UnityEngineRegistration, NULL);
